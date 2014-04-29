@@ -9,7 +9,7 @@ setup(
     author_email='josue@inka-labs.com',
     url='https://github.com/joshjo/django-sentry',
     license='BSD',
-#    packages=find_packages(exclude=('docs',)),
+    packages=find_packages(),
     include_package_data=True,
     keywords='django 1.5 sentry',
     classifiers=[
